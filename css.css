@@ -1,0 +1,119 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#forma {
+
+    margin: 0 auto;
+    width: 500px;
+    border: 0px solid #FFFF00;
+}
+
+.sform {
+    padding: 0px 80px 10px 0px;
+    border: 2px solid green;
+}
+
+/* ---> za .SFORM LABLE <--- 
+
+ Nisam razumeo da li treba ukupno da bude 20px razmaka za donji element + gornji, ako bi tako trebalo, onda donji pading 10 + gornji pading 10 daju 20 za svaki element.
+
+
+Ako ipak treba da i gornji i donji budu 20px i da se pading ne sabira sa drugim elementima, u tom slucaju treba da stoji ovaj padding ispod sa gornjim i donjim od 20px.
+
+---> padding: 20px 0px 20px 0px;
+
+ Vizuelno mi se pre poklapala sa primerom kako forma treba da izgleda, a koji je dat u domacem zadatku sa padingom od 10px dole i gore kako je trenutno formatirana.
+
+ ---> za .SFORM LABLE <--- */
+.sform label {
+    padding: 10px 0px 10px 0px;
+    display: block;
+}
+
+.stable td {
+    border: 0px solid black;
+}
+
+.ftable,
+.ftable,
+.ftable td,
+.ftable th {
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+
+.stable {
+    margin: 0 auto;
+}
+
+.stable td {
+    text-align: right;
+}
+
+.ftable.prvi_red.imeTH {
+    background-color: lightblue;
+}
+
+.ftable th:nth-child(1) {
+    background-color: lightblue;
+}
+
+.ftable th:nth-child(2) {
+    text-align: right;
+    background-color: yellow;
+}
+
+.ftable th:nth-child(3) {
+    text-align: left;
+}
+
+.ftable .drugi_red td:nth-child(1) {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.ftable .drugi_red td:nth-child(2) {
+    background-color: yellow;
+}
+
+.ftable .treci_red td:nth-child(2) {
+    text-align: right;
+}
+
+.ftable .treci_red td:nth-child(1) {
+    text-align: right;
+}
+
+.ftable .cetvrti_red td:nth-child(2) {
+    background-color: yellow;
+    text-align: right;
+}
+
+.ftable .cetvrti_red td:nth-child(1) {
+    background-color: lightblue;
+}
+
+.stable .dugme td:nth-child(2) {
+    text-align: left;
+}
+
+.zelena {
+    background-color: lightgreen;
+}
+
+#treciRed td {
+    color: red;
+    background-color: lightgreen;
+}
+
+.ftable #treciRed td:nth-child(2) {
+    text-align: right;
+}
+
+.btn {
+    width: 60%;
+    border-radius: 2px;
+}
